@@ -1,9 +1,9 @@
 <?php ob_start(); ?>
-<h1>Tasks List</h1>
+<h2>Tasks List</h2>
 <form method="post" action="/store">
     <input type="text" name="title" placeholder="enter task title " required>
     <button type="submit"> Create </button>
-    <h1>Users List</h1>
+    <h2>Users List</h2>
 </form>
 <form method="post" action="/SignUp">
     <input type="text" name="name" placeholder="enter your name" required >
